@@ -15,6 +15,11 @@ function cargarEventListeners() {
         articulosCarrito = [];
         limpiarHTML();
     })
+    //Vamos a agrgar un fucntion para probatr Git
+
+    function agregaDatos() {
+        console.log(articulosCarrito);
+    }
 
 }
 function agregarCurso(e) {
